@@ -1,0 +1,110 @@
+/********* 
+general (mobile first) 
+********************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.debug {
+    border: 1px solid red;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+/*************** 
+custom properties 
+******************/
+
+:root {
+    --color-white: #ffffff;
+    --color-bg-color: #ececec;
+    --color-primary: #7c69a4;
+    --color-dark-text: #4e3969;
+    --color-black: #282529;
+    --color-contrast: #fa961a;
+    --color-icon-red: #ea5556;
+    --color-icon-blue: #2871f0;
+}
+
+/* Text utilities */
+
+.text-center {
+    text-align: center;
+}
+
+.txt-bold{
+    font-weight: bold;
+}
+
+
+/* properties page */
+.container{
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+ul{
+    list-style: none;
+}
+
+/* only tablet e desktop */
+
+.only-tablet{
+    display: none;
+
+}
+/* header properties */
+
+header h1 {
+    font-family: "Nerko One", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 4em;
+    color: var(--color-contrast);
+    text-transform: uppercase;
+}
+
+/* main properties */
+
+main{
+    background-color: var(--color-bg-color);
+}
+
+main h6{
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+main h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    color: var(--color-dark-text);
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.video img{
+    width: 100%;
+}
+
+.description{
+    background-color: var(--color-white);
+    padding: 10px 20px;
+}
+
+.description h3{
+    color: var(--color-dark-text);
+    margin-bottom: 30px;
+}
+
+main .description li{
+    margin-bottom: 20px;
+}
