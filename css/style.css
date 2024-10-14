@@ -111,7 +111,9 @@ hr{
     justify-content: center;
 }
 
-
+.wrap{
+    flex-wrap: wrap;
+}
 /******** header properties *********/
 
 header h1 {
@@ -187,3 +189,25 @@ main p{
 }
 
 /* footer properties */
+
+footer{
+    background-color: var(--color-dark-text);
+    color: var(--color-white);
+}
+
+footer li a{
+    color: var(--color-white);
+    margin: 20px;
+}
+
+footer p{
+    margin: 20px;
+}
+
+footer ul{
+    padding: 10px;
+}
+
+footer h4{
+    margin-top: 20px;
+}
