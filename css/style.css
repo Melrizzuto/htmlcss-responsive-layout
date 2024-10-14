@@ -9,9 +9,9 @@ General (mobile first)
     box-sizing: border-box;
 }
 
-.debug {
+/* .debug {
     border: 1px solid red;
-}
+} */
 /* fonts */
 
 body {
@@ -344,6 +344,7 @@ footer h4{
         flex-wrap: nowrap;
         align-items: center;
     }
-    footer ul li a{
+
+    footer ul li a {
         margin: 5px;
     }
