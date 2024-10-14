@@ -94,11 +94,15 @@ hr{
 
 }
 
-/* flex utility */
 .only-mobile{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* flex utility */
+.d-block{
+    display: block;
 }
 .d-flex{
     display: flex;
