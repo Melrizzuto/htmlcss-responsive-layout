@@ -38,14 +38,21 @@ body {
 
 /* Container property */
 .container{
-    max-width: 1200px;
+    max-width: 1080px;
     margin: 0 auto;
-    padding: 0 20px;
+    
+}
+
+main,
+footer{
+    min-height: 70px;
+    padding: 20px
 }
 
 /* ul properties */
 ul{
     list-style: none;
+    margin: 20px;
 }
 
 .socials a{
@@ -56,11 +63,10 @@ ul{
     text-align: center;
     line-height: 2;
     width: 35px;
-    height: 30px;
+    height: 35px;
     background-color: var(--color-white);
     border-radius: 40%;
     box-shadow: 0px 1px 4px 0px var(--color-black);
-    margin: 10px 10px;
 
 }
 
@@ -68,6 +74,15 @@ ul{
 /****** UTILITIES ******/
 
 /* Text utilities */
+
+i{
+    font-size: 10px;
+}
+
+li span{
+    padding-left: 10px;
+    text-align: center;
+}
 
 hr{
     width: 70px;
@@ -191,7 +206,9 @@ main .description li{
     margin: 10px 0;
 
 }
-
+.presentation{
+    padding-bottom: 65px;
+}
 main p{
     line-height: 2;
     padding-bottom: 70px;
