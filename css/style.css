@@ -99,7 +99,13 @@ hr{
     justify-content: center;
     align-items: center;
 }
-
+.ul-only-mobile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    }
+    
 /* flex utility */
 .d-block{
     display: block;
@@ -294,6 +300,14 @@ footer h4{
     main li{
         margin: 8px;
     }
+
+    .buttons{
+        width: 100px;
+        height: 30px;
+        border-radius: 15px;
+        margin: 0;
+    }
+
     .only-desktop{
         font-weight: bold;
         font-size: 10px;
@@ -315,6 +329,21 @@ footer h4{
     .footer-flex{
         display: flex;
         justify-content: space-between;
-        align-items: center;
+        align-items: flex-start;
+        padding: 0;
 
+    }
+    footer h4{
+        text-align: start;
+        margin-left: 20px;
+    }
+    footer ul li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-items: center;
+    }
+    footer ul li a{
+        margin: 5px;
     }
