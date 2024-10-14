@@ -178,7 +178,7 @@ main h2{
 
 .description h3{
     color: var(--color-dark-text);
-    margin-bottom: 30px;
+    margin-bottom: 31px;
 }
 
 main .description li{
@@ -194,7 +194,7 @@ main .description li{
 
 main p{
     line-height: 2;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
 }
 
 .presentation h3{
@@ -316,8 +316,14 @@ footer h4{
     }
     .desktop-flex{
         display: flex;
+        justify-content: center;
+        align-items: center;
     }
-
+    main .description li {
+        margin-bottom: 0px;
+        font-size: 15px;
+        line-height: 1.8;
+    }
     .video{
         width: 60%;
         display: inline-block;
@@ -334,18 +340,29 @@ footer h4{
         padding: 0;
 
     }
+
     footer h4{
         text-align: start;
         margin-left: 20px;
+        padding-top: 10px;
     }
-    footer ul li{
+
+    footer ul{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: nowrap;
         align-items: center;
+
     }
 
     footer ul li a {
-        margin: 5px;
+        margin: 2px;
+        font-size: 15px;
+        padding-top: 10px;
+    }
+
+    footer p{
+        text-align: start;
+        font-size: 15px;
     }
