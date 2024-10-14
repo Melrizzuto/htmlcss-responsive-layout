@@ -1,7 +1,8 @@
 /********* 
-general (mobile first) 
+General (mobile first) 
 ********************/
 
+/* reset */
 * {
     margin: 0;
     padding: 0;
@@ -11,14 +12,13 @@ general (mobile first)
 .debug {
     border: 1px solid red;
 }
+/* fonts */
 
 body {
     font-family: "Montserrat", sans-serif;
 }
 
-/*************** 
-custom properties 
-******************/
+/* custom properties */
 
 :root {
     --color-white: #ffffff;
@@ -31,7 +31,48 @@ custom properties
     --color-icon-blue: #2871f0;
 }
 
+
+
+/********Page properties*************/
+
+
+/* Container property */
+.container{
+    max-width: 576px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* ul properties */
+ul{
+    list-style: none;
+}
+
+.socials a{
+    display: block;
+}
+
+.buttons{
+    text-align: center;
+    line-height: 2;
+    width: 35px;
+    height: 30px;
+    background-color: var(--color-white);
+    border-radius: 40%;
+    box-shadow: 0px 1px 4px 0px var(--color-black);
+    margin: 10px 10px;
+
+}
+
+
+/****** UTILITIES ******/
+
 /* Text utilities */
+
+hr{
+    width: 70px;
+    margin-bottom: 20px;
+}
 
 .text-center {
     text-align: center;
@@ -41,24 +82,37 @@ custom properties
     font-weight: bold;
 }
 
-
-/* properties page */
-.container{
-    max-width: 576px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-ul{
-    list-style: none;
-}
-
-/* only tablet e desktop */
+/* only tablet e desktop utility */
 
 .only-tablet{
     display: none;
 
 }
-/* header properties */
+
+.only-desktop{
+    display: none;
+
+}
+
+/* flex utility */
+.d-flex{
+    display: flex;
+}
+
+.spacebetween{
+    justify-content: space-between;
+}
+
+.a-center{
+    align-items: center;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+
+/******** header properties *********/
 
 header h1 {
     font-family: "Nerko One", cursive;
@@ -90,7 +144,10 @@ main h2{
     margin-bottom: 20px;
     margin-top: 10px;
 }
-
+.video{
+    display: inline-block;
+    background-color: var(--color-white);
+}
 .video img{
     width: 100%;
 }
@@ -108,3 +165,25 @@ main h2{
 main .description li{
     margin-bottom: 20px;
 }
+
+.presentation img{
+    width: 50%;
+    box-shadow: 0px 1px 4px 0px var(--color-black);
+    margin: 10px 0;
+
+}
+
+main p{
+    line-height: 2;
+    margin-bottom: 70px;
+}
+
+.presentation h3{
+    text-transform: uppercase;
+    color: var(--color-dark-text);
+    font-size: 2em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+/* footer properties */
