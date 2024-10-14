@@ -217,6 +217,7 @@ footer li a{
 
 footer p{
     margin: 20px;
+    text-align: center;
 }
 
 footer ul{
@@ -224,6 +225,7 @@ footer ul{
 }
 
 footer h4{
+    text-align: center;
     margin-top: 20px;
 }
 
@@ -243,6 +245,7 @@ footer h4{
         flex-wrap: wrap;
         align-items: center;
         justify-content: start;
+        padding: 0 40px;
         
     }
     main li{
@@ -253,7 +256,7 @@ footer h4{
         display: inline-block;
     }
     .buttons{
-        width: 90px;
+        width: 70px;
         height: 30px;
         border-radius: 15px;
         margin: 0;
@@ -280,4 +283,38 @@ footer h4{
     .only-desktop{
         display: inline-block;
     }
-  }
+
+    .description ul{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        
+    }
+
+    main li{
+        margin: 8px;
+    }
+    .only-desktop{
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 1;
+    }
+    .desktop-flex{
+        display: flex;
+    }
+
+    .video{
+        width: 60%;
+        display: inline-block;
+    }
+
+    .description{
+        width: 40%;
+    }
+
+    .footer-flex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
