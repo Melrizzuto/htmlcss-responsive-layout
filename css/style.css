@@ -76,13 +76,9 @@ ul{
 /* Text utilities */
 
 i{
-    font-size: 10px;
+    font-size: 15px;
 }
 
-li span{
-    padding-left: 10px;
-    text-align: center;
-}
 
 hr{
     width: 70px;
@@ -120,6 +116,10 @@ hr{
     align-items: center;
     flex-wrap: wrap;
     }
+
+.desktop-flex{
+    background-color: var(--color-white);
+}
     
 /* flex utility */
 .d-block{
@@ -259,19 +259,13 @@ footer h4{
     header h1{
         text-align: start;
     }
-    .container{
-        padding: 0 40px;
-    }
     
-
+    
     main ul{
         display: flex;
         flex-wrap: wrap;
-        align-items: center;
-        justify-content: start;
-        padding: 0 40px;
-        
     }
+   
     main li{
         
         margin: 20px;
@@ -298,6 +292,7 @@ footer h4{
         display: block;
     }
     .presentation img{
+        width: 50%;
         margin: 10px;
     }
   }
@@ -315,9 +310,6 @@ footer h4{
         
     }
 
-    main li{
-        margin: 8px;
-    }
 
     .buttons{
         width: 100px;
@@ -374,12 +366,12 @@ footer h4{
     }
 
     footer ul li a {
-        margin: 2px;
+        margin: 4px;
         font-size: 15px;
         padding-top: 10px;
     }
 
     footer p{
         text-align: start;
-        font-size: 15px;
+        font-size: 10px;
     }
